@@ -1,0 +1,60 @@
+body {
+
+    margin: 0;
+    padding: 0.625rem;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    background-color: black;
+}
+
+p, h1, h2, ul {
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0.625rem;
+}
+
+.imagem-1 {
+    width: 83.5rem;
+    height: auto;
+    margin-top: 0%;
+    max-width: 100%;
+}
+
+
+.pai {
+    display: flex;
+
+}
+
+.sobre {
+    margin: 0.313rem;
+    text-align: left;
+    height: auto;
+    max-width: 45%;
+
+}
+
+
+@media (max-width: 30rem) {
+    .pai {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .sobre {
+        max-width: 80%;
+    }
+
+   
+}
+ 
+    
+    
